@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+box-sizing: border-box
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+    flex-grow: 3;
+    flex-shrink: 0;
+}
+
+
+article{
+    flex-basis: 60%;
+}
+
+nav{
+    flex-basis: 20%;
+}
+
+aside{
+    flex-basis: 20%;
+}
