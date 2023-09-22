@@ -1,15 +1,21 @@
 /*Schrijf hier jouw CSS*/
-.opdracht-1{
+.opdracht-1 .container-1{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
-.opdracht-2{
+.opdracht-2 .container-2{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
-.opdracht-3{
+.opdracht-2 li{
+    width: 33%;
+}
+
+.opdracht-3 .container-3{
     display: flex;
     flex-direction: column;
 }
@@ -28,17 +34,25 @@ align-self: center;
 
 }
 
-.opdracht-4{
+.opdracht-4 .container-4{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
+
 }
 
-.opdracht-5{
+.opdracht-5 div{
+    display: flex;
+    flex-direction: row;
+justify-content: space-evenly;
+    gap: 50px;
+
+}
+
+.container-5{
     display: flex;
     flex-direction: column;
-justify-content: space-evenly;
-
+    gap: 50px;
 }
 
