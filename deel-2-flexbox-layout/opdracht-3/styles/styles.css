@@ -1,1 +1,43 @@
-/*Schrijf hier jouw CSS*/
+/*ook deze moet ik echt ff de uitwerkingen bekijken*/
+.col-1{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+}
+
+.col-2{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+
+.container{
+    display: flex;
+    width: 700px;
+    height: 700px;
+}
+
+header{
+    display: flex;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    width: 700px;
+    flex-grow: 3;
+}
+
+article{
+    display: flex;
+}
+
+aside{
+    display: flex;
+}
+
+footer{
+    display: flex;
+
+}

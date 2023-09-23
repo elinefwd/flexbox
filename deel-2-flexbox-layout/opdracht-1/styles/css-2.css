@@ -9,17 +9,21 @@ box-sizing: border-box
     min-height: 100%;
     flex-grow: 3;
     flex-shrink: 0;
+    ;
 }
 
-
-article{
-    flex-basis: 60%;
-}
-
-nav{
+header {
     flex-basis: 20%;
 }
 
-aside{
+main {
+    flex-basis: 60%;
+    align-self: stretch;
+    height: 700px;
+}
+
+
+
+footer {
     flex-basis: 20%;
 }

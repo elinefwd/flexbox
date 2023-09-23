@@ -1,1 +1,44 @@
-/*Schrijf hier jouw CSS*/
+/* not perfect but a good try */
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.outer-col-1 {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    width: 200px;
+    justify-content: flex-start;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 200px;
+    justify-content: flex-start;
+}
+
+article {
+    display: flex;
+    align-self: center;
+    height: 400px;
+    width: 800px ;
+}
+
+footer {
+    display: flex;
+    height: 200px;
+    width: 800px;
+
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 600px;
+    width: 200px;
+}
+

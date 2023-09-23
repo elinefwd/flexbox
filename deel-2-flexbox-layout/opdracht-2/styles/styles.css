@@ -1,1 +1,42 @@
-/*Schrijf hier jouw CSS*/
+.col-1{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    justify-content: flex-start;
+    width: 25%;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: space-evenly;
+    width: 75%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.header {
+    display: flex;
+    flex-basis: 300px;
+    justify-content: space-evenly;
+}
+
+.article{
+    display: flex;
+    flex-basis: 300px;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    flex-basis: 300px;
+    justify-content: space-evenly;
+}
+
+/*het is niet perfect maar wel lang genoeg mee bezig geweest wacht op de uitwerking*/
